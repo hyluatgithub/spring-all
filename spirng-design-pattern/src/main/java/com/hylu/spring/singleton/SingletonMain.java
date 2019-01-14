@@ -8,7 +8,7 @@ public class SingletonMain {
         SingleObject singleObject = SingleObject.getInstance();
         singleObject.sayHello();
 
-        //单例模式推荐实现之一：枚举
+        //单例模式推荐实现之一：枚举式
         SingleEnumObject singleObjectEnum = SingleEnumObject.singleObject;
         singleObjectEnum.sayHi();
 
